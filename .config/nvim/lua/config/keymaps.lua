@@ -13,4 +13,4 @@ local function map(mode, lhs, rhs, opts)
   end
 end
 
-map("i", "jj", "<Esc>", { desc = "Exit Insert Mode" })
+map("i", "jk", "<Esc>", { desc = "Exit Insert Mode" })
