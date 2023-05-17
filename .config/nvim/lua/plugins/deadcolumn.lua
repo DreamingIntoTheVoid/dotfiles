@@ -1,3 +1,12 @@
+local colors = require("tokyonight.colors").setup()
 return {
-  { "Bekaboo/deadcolumn.nvim" },
+  {
+    "Bekaboo/deadcolumn.nvim",
+    opts = {
+      scope = "line",
+      blending = {
+        colorcode = colors.bg_dark,
+      },
+    },
+  },
 }

@@ -23,6 +23,7 @@ plug "zap-zsh/vim"
 # plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 
+plug "Aloxaf/fzf-tab"
 plug "romkatv/powerlevel10k"
 plug "zap-zsh/supercharge"
 

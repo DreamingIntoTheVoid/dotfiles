@@ -5,3 +5,5 @@
 vim.g.python3_host_prog = "/usr/bin/python3"
 vim.cmd("aunmenu PopUp.How-to\\ disable\\ mouse")
 vim.cmd("aunmenu PopUp.-1-")
+
+vim.cmd("set cc=80")
