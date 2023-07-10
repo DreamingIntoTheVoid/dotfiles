@@ -12,3 +12,6 @@ cp ~/.p10k.zsh .
 
 # neovim
 cp -r ~/.config/nvim/ ./.config
+
+# clang
+cp ~/.clang-format .
